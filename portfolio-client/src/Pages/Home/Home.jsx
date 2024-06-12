@@ -1,12 +1,13 @@
+import AboutUS from "../../Component/AboutUS";
+import Banner from "../../Component/Banner";
 
 
 
 const Home = () => {
     return (
-        <div  className="bg-[#170550]">
-            <div>
-            
-            </div>
+        <div>
+            <Banner></Banner>
+            <AboutUS></AboutUS>
         </div>
     );
 };

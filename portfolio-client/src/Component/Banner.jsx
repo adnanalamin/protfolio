@@ -66,8 +66,7 @@ const Banner = () => {
               ))}
             </h3>
             <p className="py-6 text-white text-xl font-normal w-[573px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-              dolorum ullam molestias autem deleniti iure earum!
+            Crafting dynamic, full-stack web applications with MongoDB, Express.js, React, and Node.js for seamless, efficient, and innovative digital experiences.
             </p>
             <button
               onClick={handleDownload}

@@ -2,7 +2,7 @@ import image from '../assets/myphoto.png'
 
 const AboutUS = () => {
   return (
-    <div className="bg-[#170550]">
+    <div id='about' className="bg-[#170550]">
       <div className="lg:max-w-7xl lg:mx-auto pb-28">
         <div className="w-full text-center pt-16">
           <h2 className="font-ex2 font-semibold text-white text-[40px]">

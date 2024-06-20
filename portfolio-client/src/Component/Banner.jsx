@@ -37,14 +37,14 @@ const Banner = () => {
       <div className="hero  mt-8  bg-[#31065A] ">
         <motion.div
           ref={ref}
-          className="w-[30px] h-[30px] bg-red-700 rounded-full z-50"
+          className="w-[30px] h-[30px] bg-red-700 rounded-full z-20"
           animate={{ x: coordinates.x, y: coordinates.y }}
           transition={{
             type: "spring",
           }}
         ></motion.div>
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src={bannerImg} className="h-[600px] -z-10" />
+          <img src={bannerImg} className="h-[600px]" />
           <div>
             <h3 className="text-3xl  font-semibold font-ex2 text-[#F86F03]">{`Hi, It's me`}</h3>
             <h2 className="font-ex2 text-white text-6xl font-bold">Al Amin</h2>
@@ -71,7 +71,7 @@ const Banner = () => {
             </p>
             <button
               onClick={handleDownload}
-              className="bg-[#F86F03] z-10 py-3 px-11 rounded-3xl font-ex2 font-semibold text-white"
+              className="bg-[#F86F03] -z-0 py-3 px-11 rounded-3xl font-ex2 font-semibold text-white"
             >
               Download CV
             </button>

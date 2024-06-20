@@ -14,10 +14,10 @@ const Navbar = () => {
         <a href="#skills">Skills</a>
       </li>
       <li>
-        <a>Portfolio</a>
+        <a href="#portfolio">Portfolio</a>
       </li>
       <li>
-        <a>Contact</a>
+        <a href="#contact">Contact</a>
       </li>
     </>
   );

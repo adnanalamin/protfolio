@@ -1,8 +1,10 @@
 import { FaDatabase } from "react-icons/fa6";
+import { FaServer } from "react-icons/fa";
+import { CgWebsite } from "react-icons/cg";
 
 const MyServices = () => {
   return (
-    <div id="myServices" className=" bg-[#31065A] font-ex2">
+    <div id="myServices" className=" bg-[#31065A] font-ex2 pb-40">
       <div className="w-full text-center pt-16">
         <h2 className="font-ex2 font-semibold text-white text-[40px]">
           My <span className="text-[#F86F03]">Services</span>
@@ -10,8 +12,12 @@ const MyServices = () => {
         <hr className="w-56 bg-[#D9D9D9] mx-auto" />
       </div>
       <div className=" w-full bg-[#31065A] lg:max-w-7xl lg:mx-auto mt-24 p-4">
+
         <div className="grid gap-14 md:grid-cols-3 md:gap-5">
           <div className="rounded-xl bg-white p-6 text-center shadow-xl ">
+          <div className="mt-12">
+              <CgWebsite className="text-[#F86F03] w-full mx-auto h-20 "></CgWebsite>
+            </div>
             <h1 className="text-[#170550] mt-7 text-2xl font-ex2 font-bold lg:px-14">
               Front-end
             </h1>
@@ -25,7 +31,11 @@ const MyServices = () => {
           <div
             data-aos-delay="150"
             className="rounded-xl bg-white p-6 text-center shadow-xl"
+            
           >
+            <div className="mt-12">
+              <FaServer className="text-[#F86F03] w-full mx-auto h-20 "></FaServer>
+            </div>
             <h1 className="text-[#170550] mt-7 text-2xl font-ex2 font-bold lg:px-14">
               Backend
             </h1>
